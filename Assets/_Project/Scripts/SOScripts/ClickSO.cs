@@ -8,9 +8,7 @@ namespace _Project.SOs
     [CreateAssetMenu(menuName = "_Project/SOs/ClickSO", fileName = "ClickSO")]
     public class ClickSO : ScriptableObject
     {
-        
-        
-        [FormerlySerializedAs("clickLocation")] [HideInInspector] 
+        [HideInInspector] 
         public Vector3 clickPosition;
         
         [HideInInspector] 
