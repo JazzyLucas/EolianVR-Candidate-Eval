@@ -38,7 +38,7 @@ The assignment deadline was initially 24 hours, which you may use to the full ex
 
 #### Don't use the normal Unity Editor "Build" window, install and use MRTK's build window.
 
-Open the [Mixed Reality Feature Tool](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool), and get `Mixed Reality Toolkit > Mixed Reality Toolkit Tools` in order to access the build window.
+Open the [Mixed Reality Feature Tool](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool), and get `Mixed Reality Toolkit > Mixed Reality Toolkit Tools`.
 
 Then access the build window in the Unity editor  `Mixed Reality > Toolkit > Utilities > Build Window`.
 
