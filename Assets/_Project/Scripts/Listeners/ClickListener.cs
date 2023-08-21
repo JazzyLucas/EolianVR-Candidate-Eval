@@ -13,7 +13,7 @@ namespace _Project.Listeners
         public ClickSO clickTemplate;
         
         public event Action<ClickSO> OnClickEvent;
-        public void InvokeClickEvent(ClickSO click) => OnClickEvent?.Invoke(click);
+        private void InvokeClickEvent(ClickSO click) => OnClickEvent?.Invoke(click);
         
         private void Start()
         {
@@ -25,11 +25,6 @@ namespace _Project.Listeners
                 newClick.clickPosition = e.Pointer.Position;
                 newClick.clickRotation = e.Pointer.Rotation;
                 InvokeClickEvent(newClick);
-            });
-
-            pointerHandler.OnPointerUp.AddListener((e) =>
-            {
-                
             });
         }
     }
